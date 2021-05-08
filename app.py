@@ -53,10 +53,10 @@ class Monitor:
               ],
               "author": {
                 "name": "NBA TopShot Status"
-              }
+              },
               "footer": {
                 "text" : "Made by Adi | Heavydrops CG"
-              }
+              {
             }
           ]
         }
