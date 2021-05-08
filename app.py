@@ -56,7 +56,7 @@ class Monitor:
               },
               "footer": {
                 "text" : "Made by Adi | Heavydrops CG"
-              {
+              }
             }
           ]
         }
