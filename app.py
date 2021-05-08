@@ -32,7 +32,7 @@ class Monitor:
                 print("ERROR w REQUEST")
 
 
-            time.sleep(1800)
+            time.sleep(5)
 
 
     def send_webhook(self):
