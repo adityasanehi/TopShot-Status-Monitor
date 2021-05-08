@@ -6,7 +6,7 @@ class Monitor:
     def __init__(self):
         self.status = ""
         self.indicator = ""
-        self.webhook_url = "INPUT WEBHOOK URL HERE"
+        self.webhook_url = "https://discord.com/api/webhooks/840426783828475954/cM4bnSRwZrQy2D_WQvdWIMnAW-0XSyQVKK4Ej_oqHSuaGtsL3BWZSlEfgz3ORpk6qj7H"
 
 
     def monitor_status(self):
@@ -32,7 +32,7 @@ class Monitor:
                 print("ERROR w REQUEST")
 
 
-            time.sleep(5)
+            time.sleep(1800)
 
 
     def send_webhook(self):
@@ -40,7 +40,7 @@ class Monitor:
           "embeds": [
             {
               "title": "Status Changed!",
-              "description": "Top Shot Maintenance Monitor -",
+              "description": "TopShot Marketplace Maintenance Monitor -",
               "fields": [
                 {
                   "name": "Indicator",
@@ -52,7 +52,10 @@ class Monitor:
                 }
               ],
               "author": {
-                "name": "Top Shot Status"
+                "name": "NBA TopShot Status"
+              }
+              "footer": {
+                "text" : "Made by Adi | Heavydrops CG"
               }
             }
           ]
